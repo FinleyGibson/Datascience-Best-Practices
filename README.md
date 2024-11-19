@@ -109,7 +109,7 @@ and make your first git commit:
 git add -A
 git commit -m "initial commit containing basic project structure"
 ```
-(see the [git section](#version-control-git) for more on version control and configuring a remote repository.)
+See the [git section](#version-control-git) for more on version control and configuring a remote repository.
 
 The rest of this document outlines the tools discussed here and others in greater detail and should be used as a reference. 
 
@@ -126,6 +126,37 @@ Python is pre-installed on most macOS and Linux systems, meaning users can typic
 Git is a widely-used version control system that helps developers track changes in code, collaborate with others, and manage project history efficiently. Git enables branching, merging, and rollback features, making it essential for team-based development and large projects.
 
 Git is often pre-installed on macOS and Linux systems, allowing users to start using it from the terminal. On Windows, Git usually needs to be installed manually. Windows users can download it from the official Git [website](https://git-scm.com/downloads) and should choose "Git Bash" for an enhanced command-line experience.
+
+### Setting Up GitHub
+To host and share your repositories online, you can use GitHub, a popular remote hosting platform for Git repositories.
+
+1. **Create a GitHub Account**:  
+   - Visit [GitHub](https://github.com/) and sign up for a free account.  
+   - Set up your profile, including a username, email, and password.  
+
+2. **Create a Remote Repository**:  
+   - Log in to your GitHub account.  
+   - Click on the **+** icon in the top-right corner and select **New repository**.  
+   - Name your repository and optionally add a description.  
+   - Choose to make it public or private.  
+   - Initialize the repository with a README if desired, then click **Create repository**.  
+
+3. **Link a Local Repository to GitHub**:  
+   After setting up a local Git repository, link it to the remote GitHub repository:  
+   ```bash
+   git remote add origin https://github.com/your-username/your-repository.git
+   git branch -M main
+   git push -u origin main
+   ```
+   Replace your-username and your-repository with your GitHub username and repository name.
+
+4. **Push Changes to GitHub**:  
+   Use the following commands to commit and push changes:
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   git push
+   ```
 
 ### Excluding Files: .gitignore
 A .gitignore file is a simple text file used in Git repositories to specify which files and directories should be ignored by Git. This is essential for excluding unnecessary files (like build artifacts, compiled code, and sensitive information) from version control, keeping the repository clean and reducing clutter. By listing patterns in .gitignore, you ensure that specified files won’t be tracked, staged, or committed. Common entries include temporary files, system files, and virtual environment directories (e.g., .venv/, *.log, __pycache__/).
