@@ -24,11 +24,11 @@ While it is not essential to follow every recommendation to the letter, thoughtf
 ---
 
 ## Quick Start
-Most of the instructions in this guide require use of the commandline interface in a Unix based system (Mac and Linux). For use with Windows first install Gitbash via [git for windows](gitforwindows.org).
+Most of the instructions in this guide require use of the commandline interface in a Unix based system (Mac and Linux). For use with Windows first install Gitbash via [git for windows](https://gitforwindows.org).
 Where `{project-name}` is referenced, replace this with the name of your project *without* the curly braces.
 
 
-To get started you will need to make sure [Python](<README#Language: Python>), [Git](<README#Version Control: Git>) and [Poetry](<README#Packaging and Dependency Management: Poetry>) are installed.
+To get started you will need to make sure [Python](#language-python), [Git](#version-control-git) and [Poetry](#packaging-and-dependency-management-poetry) are installed.
 Python and Git come pre-installed on both Mac and Linux systems, and Git is installed as part of Git For Windows, but Windows users will need to [download](https://www.python.org/downloads/) and install Python.
 You will need to additionally install Poetry, which can be done from the [website](https://python-poetry.org/) or by running:
 ```shell
