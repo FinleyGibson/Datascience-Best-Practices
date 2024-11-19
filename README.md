@@ -30,11 +30,11 @@ Where `{project-name}` is referenced, replace this with the name of your project
 
 To get started you will need to make sure [Python](#language-python), [Git](#version-control-git) and [Poetry](#packaging-and-dependency-management-poetry) are installed.
 Python and Git come pre-installed on both Mac and Linux systems, and Git is installed as part of Git For Windows, but Windows users will need to [download](https://www.python.org/downloads/) and install Python.
-You will need to additionally install Poetry, which can be done from the [website](https://python-poetry.org/) or by running:
+You will need to additionally install Poetry, which can be done from the [website](https://python-poetry.org/) or by running
 ```shell
 curl -sSL https://install.python-poetry.org | python -
 ```
-from the command line. Then run:
+from the command line. Then run
 ```
 poetry config virtualenvs.in-project true
 ```
