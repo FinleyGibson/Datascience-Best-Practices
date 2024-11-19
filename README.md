@@ -7,7 +7,7 @@ While it is not essential to follow every recommendation to the letter, thoughtf
 
 ## Table of Contents
 
-- [Quicks-start](#quick-start)
+- [Quick Start](#quick-start)
 - [Language: Python](#language-python)
 - [Version Control: Git](#version-control-git)
 - [Project Structure](#project-structure)
@@ -23,7 +23,7 @@ While it is not essential to follow every recommendation to the letter, thoughtf
 
 ---
 
-## Quick-start
+## Quick Start
 Most of the instructions in this guide require use of the commandline interface in a Unix based system (Mac and Linux). For use with Windows first install Gitbash via [git for windows](gitforwindows.org).
 Where `{project-name}` is referenced, replace this with the name of your project *without* the curly braces.
 
