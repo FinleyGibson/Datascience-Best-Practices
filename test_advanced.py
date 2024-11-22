@@ -2,7 +2,7 @@
 
 import pytest
 
-class TestMathOperations:
+class ExampleTestClass:
     # Class-level setup and teardown (executed once for the entire class)
     @classmethod
     def setup_class(cls):

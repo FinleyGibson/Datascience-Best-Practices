@@ -45,7 +45,7 @@ To create a new porject open the command line tool for your system in the desire
 ```shell
 poetry new --src {project-name}
 ```
-now change directory into the newly created project using:
+Now change directory into the newly created project using:
 ```shell
 cd {project-name}
 ```
