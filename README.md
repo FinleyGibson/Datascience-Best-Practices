@@ -160,7 +160,7 @@ To host and share your repositories online, you can use GitHub, a popular remote
    ```
 
 ### Excluding Files: .gitignore
-A .gitignore file is a simple text file used in Git repositories to specify which files and directories should be ignored by Git. This is essential for excluding unnecessary files (like build artifacts, compiled code, and sensitive information) from version control, keeping the repository clean and reducing clutter. By listing patterns in .gitignore, you ensure that specified files won’t be tracked, staged, or committed. Common entries include temporary files, system files, and virtual environment directories (e.g., .venv/, *.log, __pycache__/).
+A .gitignore file is a simple text file used in Git repositories to specify which files and directories should be ignored by Git. This is essential for excluding unnecessary files (like build artifacts, compiled code, and sensitive information) from version control, keeping the repository clean and reducing clutter. By listing patterns in .gitignore, you ensure that specified files won’t be tracked, staged, or committed. Common entries include temporary files, system files, and virtual environment directories (e.g., `.venv/`, `*.log`, `__pycache__/`).
 
 A lot of the content for the `.gitignore` is standard boilerplate which does not change between projects, and there are useful [generators](https://www.toptal.com/developers/gitignore/) to help build comprehensive files. An example `.gitignore` file has been included [here](./.gitignore).
 
@@ -240,7 +240,7 @@ pip install {project-name}
 Configuration file for managing and setting parameters and configuration features which may need to be altered or changed by a user. The .toml file format is commonly used for managing project configurations in Python. It provides a human-readable and easily editable way configure settings.
 
 example configuration file:
-```shell
+```toml
 [database]
 host = "localhost"
 port = 5432
@@ -273,7 +273,8 @@ database_port = config['database']['port']
 logging_level = config['logging']['level']
 ```
 
-NOTE: If including api credentials, then this file should be added to the `.gitignore` and not included in the github remote repository.
+> [!NOTE]
+> If including api credentials, then this file should be added to the `.gitignore` and not included in the github remote repository.
 
 
 ## IDE: VSCode
@@ -319,7 +320,8 @@ The project configuration is stored in the file `pyproject.toml`, which can be c
    ```
    This will cause the virtual environment to be created in a `.venv` folder inside your project root, making it easier to manage and locate dependencies. This configuration only needs to be set once and the desired behaviour will be set for all future Poetry projects.
 
-   NOTE: The `.venv/` directory should be added to the `.gitignore` and not included in the remote git repository.
+   > [!NOTE]
+   > The `.venv/` directory should be added to the `.gitignore` and not included in the remote git repository.
 
 4. **Installing the Environment:**
 
@@ -445,6 +447,7 @@ By using **Ruff** with **Poetry**, you can maintain clean, consistent code while
 
 ## Tests: Pytest
 [documentation](https://docs.pytest.org/en/stable/)
+
 pytest is a powerful testing framework for Python that makes it easy to write simple and scalable test cases. It's known for its simplicity, ease of use, and ability to scale from small unit tests to complex functional tests. pytest can be used to write tests for individual units of code and also for larger, more complex features.
 
 One of the key advantages of pytest is its ability to automatically discover and run test functions. It also supports fixtures to manage pre-test setup and cleanup, and provides detailed reports on test results, making it easier to diagnose issues quickly.
