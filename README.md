@@ -41,7 +41,7 @@ poetry config virtualenvs.in-project true
 to configure virtual environments to be built and stored within the project root directory.
 
 ### Creating a new project
-To create a new porject open the command line tool for your system in the desired parent directory for the project. Then run:
+To create a new project open the command line tool for your system in the desired parent directory for the project. Then run:
 ```shell
 poetry new --src {project-name}
 ```
@@ -100,7 +100,7 @@ from {project-name}.module_name import function_name
 There is an [extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) for jupyter notebooks in VSCode that allows notebooks to be written and run from within the VSCode environment. 
 
 ### Committing Changes:
-Now is a good time to add a boilerplate `.gitignore` file, to keep non-essential and auto-generated files from being backed up:
+Now is a good time to add a boilerplate `.gitignore` file, to keep non-essential and auto-generated files from being added to the remote repository:
 ```shell
 curl https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks > .gitignore
 ```
@@ -525,4 +525,3 @@ Things that we may want to execute as stand-alone scripts include:
 - Downloading publicly  available data.
 - Pre-processing data.
 - Running experiments.
--
