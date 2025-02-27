@@ -112,7 +112,7 @@ git commit -m "initial commit containing basic project structure"
 ```
 See the version control [section](#version-control-git) for more on git and configuring a remote repository.
 
-The rest of this document outlines the tools discussed here and others in greater detail and should be used as a reference. 
+You are now set up and ready to go. The rest of this document outlines the tools discussed here and others in greater detail and should be used as a reference. 
 
 # Language: Python
 [installation](https://www.python.org/downloads/) · [basics](https://wiki.python.org/moin/BeginnersGuide/Programmers) · [course](https://link-to-courst-tbc)
@@ -164,6 +164,7 @@ A .gitignore file is a simple text file used in Git repositories to specify whic
 
 A lot of the content for the `.gitignore` is standard boilerplate which does not change between projects, and there are useful [generators](https://www.toptal.com/developers/gitignore/) to help build comprehensive files. An example `.gitignore` file has been included [here](./.gitignore).
 
+There are also online resources for generating .gitignore files such as [toptal.com](https://www.toptal.com/developers/gitignore), where you can search operating system, IDEs or programming languages you are using and generate a boilerplate .gitignore to exclude associate unwanted files. 
 
 ## Project Structure
 
@@ -319,7 +320,7 @@ The project configuration is stored in the file `pyproject.toml`, which can be c
    ```
    This will cause the virtual environment to be created in a `.venv` folder inside your project root, making it easier to manage and locate dependencies. This configuration only needs to be set once and the desired behaviour will be set for all future Poetry projects.
 
-   NOTE: The `.venv/` directory should be added to the `.gitignore` and not included in the remote git repository.
+   NOTE: The `.venv/` directory should be added to the `.gitignore` and not included in the remote git repository, just check there is a line `.venv/` somewhere in the .gitignore file.
 
 4. **Installing the Environment:**
 
