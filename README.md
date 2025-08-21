@@ -66,8 +66,8 @@ From here you will have a basic project structure complete with a basic `pyproje
 ├── pyproject.toml
 ├── README.md
 ├── src
-│   └── {project-name}
-│       └── __init__.py
+│   └── {project-name}
+│       └── __init__.py
 └── tests
     └── __init__.py
 ```
