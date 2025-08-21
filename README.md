@@ -124,7 +124,7 @@ as with a `.py` file.
 
 # Language: Python
 
-[installation](https://www.python.org/downloads/) · [basics](https://wiki.python.org/moin/BeginnersGuide/Programmers) · [course](https://link-to-courst-tbc)
+[installation](https://www.python.org/downloads/) · [basics](https://wiki.python.org/moin/BeginnersGuide/Programmers) · [course](https://coding-for-reproducible-research.github.io/CfRR_Courses/course_homepages/python.html#)
 
 Python is a popular, high-level programming language known for its readability and versatility. It’s widely used in fields like web development, data science, automation, and artificial intelligence. Python’s simple syntax and vast ecosystem of libraries make it a go-to choice for both beginners and professionals looking to build efficient, scalable applications.
 
@@ -132,7 +132,7 @@ Python is pre-installed on most macOS and Linux systems, meaning users can typic
 
 ## Version Control: Git
 
-[installation](https://git-scm.com/downloads) · [basics](https://git-scm.com/doc) · [course](https://link-to-course-tbc)
+[installation](https://git-scm.com/downloads) · [basics](https://git-scm.com/doc) · [course](https://coding-for-reproducible-research.github.io/CfRR_Courses/course_homepages/version_control.html)
 
 Git is a widely-used version control system that helps developers track changes in code, collaborate with others, and manage project history efficiently. Git enables branching, merging, and rollback features, making it essential for team-based development and large projects.
 
@@ -195,7 +195,7 @@ ls -A
 
 ## README: README.md
 
-A well-structured README file is essential for providing users with clear instructions about the project. It should give an overview of the project, installation steps, usage instructions, and contribution guidelines. README.md file should be written in markdown, and contain basic project information, installation instructions and links to associated publications.
+A well-structured README file is essential for providing users with clear instructions about the project. It should give an overview of the project, installation steps, usage instructions, and contribution guidelines. README.md file should be written in [markdown](https://www.markdownguide.org/), and contain basic project information, installation instructions and links to associated publications.
 
 `````markdown
 # {Project Name}
@@ -219,8 +219,6 @@ pip install {project-name}
 - Firstname Lastname: exampleemail@domain.com
 ````
 `````
-
-````
 
 ## Project Config: TOML
 
@@ -265,7 +263,7 @@ NOTE: If including api credentials, then this file should be added to the `.giti
 
 ## IDE: VSCode
 
-[installation](https://code.visualstudio.com/Download) · [basics](https://code.visualstudio.com/docs) · [course](https://link-to-courst-tbc)
+[installation](https://code.visualstudio.com/Download) · [basics](https://code.visualstudio.com/docs)
 
 Visual Studio Code (VSCode) is a popular, free, and open-source code editor developed by Microsoft. It’s known for its lightweight nature, speed, and rich feature set, including debugging support, integrated Git control, extensions, and language support. VSCode is highly customizable, with a wide range of extensions available to enhance functionality, making it an excellent choice for Python, web development, data science, and many other programming tasks.
 
@@ -537,4 +535,7 @@ Things that we may want to execute as stand-alone scripts include:
 - Pre-processing data.
 - Running experiments.
 -
-````
+
+```
+
+```
